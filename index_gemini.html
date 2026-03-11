@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Personnel</title>
+    <style>
+        /* Styles Généraux */
+        body {
+            background-color: #000000; /* Fond noir */
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Titre Vert Fluo */
+        h1 {
+            color: #39FF14; /* Vert Fluo */
+            font-size: 3rem;
+            text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14; /* Effet néon */
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Conteneur des onglets */
+        .nav-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Style des onglets (boutons) */
+        .tab {
+            background-color: transparent;
+            color: #90EE90; /* Vert pâle */
+            border: 2px solid #90EE90;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: all 0.3s ease; /* Animation fluide */
+            cursor: pointer;
+        }
+
+        /* Effet au survol (Hover) */
+        .tab:hover {
+            transform: scale(1.15); /* Grossissement */
+            color: #00FF00; /* Vert plus vif */
+            border-color: #00FF00;
+            box-shadow: 0 0 15px #00FF00; /* Lueur au survol */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to my websites</h1>
+
+    <div class="nav-container">
+        <a href="#" class="tab">My LinkedIn</a>
+        <a href="#" class="tab">My Facebook Page</a>
+        <a href="#" class="tab">My Steam Account</a>
+        <a href="mailto:tonadresse@email.com" class="tab">My Email address</a>
+    </div>
+
+</body>
+</html>
